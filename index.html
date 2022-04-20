@@ -7,6 +7,27 @@
 
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            .whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+        </style>
     </head>
     <body>
         <a href="#" class="scroll_top" id="scroll-top">
@@ -16,17 +37,16 @@
         <!-- Header -->
         <header id="header" class="menu-header">
             <nav class="nav-container body-container">
-                <a href="#" class="nav-logo">SweetStyle</a>
+                <a href="#" class="nav-logo">Deliciosas Empanadas Caseras</a>
 
                 <div class="nav-menu" id="nav-menu-id">
                     <ul class="nav-list">
-                        <li class="nav-item "><a href="#home" class="nav-link active-link">Home</a></li>
+                        <li class="nav-item "><a href="#home" class="nav-link active-link">Inicio</a></li>
                         <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
-                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                    
-                        <li><i class='bx bx-moon dark-light' id="theme"></i></li>
+                        <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">Acerca de nosotros</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contactanos</a></li>
+                        <li><i class='bx bx-moon' id="theme"></i></li>
                     </ul>
                 </div>
 
@@ -41,10 +61,10 @@
             <section class="home" id="home">
                 <div class="home-container body-container body-grid">
                     <div class="home-data">
-                        <h1 class="home-title"><span class="letter">S</span>weetStyle</h1>
-                        <h2 class="home-subtitle">Imagine being <br>able to enjoy <br> the finest pastries.</h2>
+                        <h1 class="home-title"><span class="letter">Sabor</span>Tradicional</h1>
+                        <h2 class="home-subtitle">Imagina poder<br>disfrutar <br> las mejores empanadas</h2>
                         <div class="btn-menu">
-                            <a href="#" class="button btn-menu">View Menu</a>
+                            <a href="#" class="button btn-menu">Ver Menu</a>
                         </div>
                     </div>
 
@@ -54,31 +74,33 @@
 
             <!-- Menu -->
             <section class="menu section body-container" id="menu">
-                <span class="subtitle"><span class="letter">S</span>pecial</span>
-                <h2 class="title">Special of the week</h2>
+                <span class="subtitle"><span class="letter"></span>Especiales</span>
+                <h2 class="title">Nuestros Productos Artesanales</h2>
 
                 <div class="menu-container body-grid">
                     <div class="menu-content">
                         <img src="assets/img/item1.png" alt="item one" class="menu-img">
-                        <h3 class="menu-name">Special Cupcake</h3>
-                        <span class="menu-detail">Chocolate</span>
-                        <span class="menu-preci">$3.50<span>
+                        <h3 class="menu-name">Empanadas x 20</h3>
+                        <span class="menu-detail">Precocidas Molde 1</span>
+                        <span class="menu-preci">$13.000 Pesos<span>
                         <a href="#" class="button menu-button"><i class='bx bx-cart'></i></a>
                     </div>
 
                     <div class="menu-content">
+                        <br>
+                        <br>
                         <img src="assets/img/item2.png" alt="item two" class="menu-img img-B">
-                        <h3 class="menu-name">Chocolate Cake</h3>
-                        <span class="menu-detail">Special Birthday</span>
-                        <span class="menu-preci">$25.00<span>
+                        <h3 class="menu-name">Empanadas x 20</h3>
+                        <span class="menu-detail">Precocidas Molde 2</span>
+                        <span class="menu-preci">$13.000 Pesos<span>
                         <a href="#" class="button menu-button"><i class='bx bx-cart'></i></a>
                     </div>
 
                     <div class="menu-content">
                         <img src="assets/img/item3.png" alt="Imagen de Génesis Gabriella en Pixabay " class="menu-img img-B">
-                        <h3 class="menu-name">Cappuccino</h3>
-                        <span class="menu-detail">Cappuccino + Cake</span>
-                        <span class="menu-preci">$2.00<span>
+                        <h3 class="menu-name">Productos De Panaderia</h3>
+                        <span class="menu-detail">Artesanales</span>
+                        <span class="menu-preci">$ Diversos Precios<span>
                         <a href="#" class="button menu-button"><i class='bx bx-cart'></i></a>
                     </div>
                 </div>
@@ -86,8 +108,8 @@
             
             <!-- Services -->
             <section class="services section body-container" id="services">
-                <span class="subtitle"><span class="letter">O</span>ffering</span>
-                <h2 class="title">Our amazing services</h2>
+                <span class="subtitle"><span class="letter">Servicios</span></span>
+                <h2 class="title">Nuestros excelentes servicios</h2>
 
                 <div class="services-container body-grid">
                     <div class="services-data">
@@ -152,14 +174,14 @@
                             16.8875 47.057C17.3045 47.4744 17.9811 47.4746 18.3984 47.0576C18.8157 
                             46.6405 18.816 45.964 18.3989 45.5466Z"/>
                         </svg>
-                        <h3 class="services-title">Excellent Service</h3>
-                        <p class="services-description">We offer our clients excellent quality services for many years, with the best and delicious fresh baked treat in the city.</p>
+                        <h3 class="services-title">Excelente Servicio</h3>
+                        <p class="services-description">Ofrecemos a nuestros clientes servicios de excelente calidad durante muchos años, con los mejores productos recién horneados de la ciudad,productos totalmente caseros y artesanales.</p>
                     </div>
 
                     <div class="services-data">
                         <svg class="services-img" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" ><path d="M19,5h-6V2h-2v3H5C3.346,5,2,6.346,2,8v10c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V8C22,6.346,20.654,5,19,5z M5,7h14 c0.552,0,1,0.448,1,1l0.001,3.12c-0.896,0.228-1.469,0.734-1.916,1.132C17.578,12.702,17.243,13,16.497,13 c-0.745,0-1.08-0.298-1.587-0.747C14.315,11.724,13.501,11,11.995,11c-1.505,0-2.319,0.724-2.914,1.253 C8.574,12.703,8.24,13,7.495,13c-0.743,0-1.077-0.297-1.582-0.747C5.466,11.855,4.895,11.348,4,11.12V8C4,7.448,4.448,7,5,7z M4,18v-4.714c0.191,0.123,0.374,0.274,0.583,0.461C5.178,14.276,5.991,15,7.495,15c1.505,0,2.319-0.724,2.914-1.253 C10.916,13.297,11.25,13,11.995,13s1.08,0.298,1.587,0.747C14.177,14.276,14.991,15,16.497,15s2.321-0.724,2.916-1.253 c0.211-0.188,0.395-0.34,0.588-0.464L20.002,18H4z"></path></svg>
-                        <h3 class="services-title">Custom Order</h3>
-                        <p class="services-description">We offer our clients excellent quality services for many years, with the best and delicious fresh baked treat in the city.</p>
+                        <h3 class="services-title">Orden Personalizada</h3>
+                        <p class="services-description">Nos adaptamos a tus necesidades, y te ofrecemos el mejor producto de acuerdo a tus requerimientos</p>
                     </div>
 
                     <div class="services-data">
@@ -214,8 +236,8 @@
                                 </clipPath>
                                 </defs>
                         </svg>
-                        <h3 class="services-title">Delivery</h3>
-                        <p class="services-description">We offer our clients excellent quality services for many years, with the best and delicious fresh baked treat in the city.</p>
+                        <h3 class="services-title">Entrega</h3>
+                        <p class="services-description">Tenemos servicio de entrega en la ciudad de cali , con previa solicitud y reservacion contactanos y resolveremos tu solicitud.</p>
                     </div>
                 </div>
             </section>
@@ -224,17 +246,21 @@
             <section class="app section body-container">
                 <div class="app-container body-grid">
                     <div class="app-data">
-                        <span class="subtitle app-initial"><span class="letter">A</span>pp</span>
-                        <h2 class="title app-initial">App is aviable</h2>
-
-                        <p class="app-description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
-                        <div class="app-stores">
-                            <a href="#"><img src="assets/img/app1.png" alt="" class="app-store"></a>
-                            <a href="#"><img src="assets/img/app2.png" alt="" class="app-store"></a>
-                        </div>
+                        <span class="subtitle app-initial"><span class="letter"></span></span>
+                        <h2 class="title app-initial">Datos de ubicacion</h2>
+                        <p class="app-description">Tambien puedes visitar nuestro sitio de manera fisica en la ciudad de cali.</p>
+                        <p>Cali - Colombia Carrera 3 norte #71 i1-15
+                           3162837271 - 3217363916
+                           puntonuestrosabor245@gmail.com</p>
+                           <br>
+                          
+                     
                     </div>
+                    <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>       
 
-                    <img src="assets/img/movil-app.png" alt="" class="app-img">
+
+                   
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1650478022524!6m8!1m7!1sUIPiDQco7Czaa7b3cJfs5w!2m2!1d3.489285277820606!2d-76.49409030128783!3f301.21509805831096!4f-8.351189083594917!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
 
@@ -242,10 +268,10 @@
             <section class="about section body-container" id="about">
                 <div class="about-container body-grid">
                     <div class="about-data">
-                        <span class="subtitle about-initial"><span class="letter">A</span>bout us</span>
-                        <h2 class="title about-initial">The best classic <br> treats.</h2>
-                        <p class="about-description">Our classic treats are made daily by in-house bakers, using the freshest & finest ingredients, with excellent customer service and at the best price, visit us.</p>
-                        <a href="#" class="button">Explore history</a>
+                        <span class="subtitle about-initial"><span class="letter"></span>Acerca de nosotros</span>
+                        <h2 class="title about-initial">Productos de calidad<br></h2>
+                        <p class="about-description">Nuestras delicias clásicas son elaboradas diariamente, tenemos mas de 5 años en el sector de panaderia y comidas, elaboramos empanadas  100% caseras , utilizando los ingredientes más frescos y finos, con un excelente servicio al cliente Tambien tenemos productos de panaderia y al mejor precio, visítanos o solicita tu domicilio en la ciudad de Cali Colombia :).</p>
+                        <a href="#" class="button">Explorar</a>
                     </div>
 
                     <img src="assets/img/about.jpg" alt="Imagen de yadetzy0 en Pixabay " class="about-img">
@@ -256,13 +282,14 @@
             <section class="contact section body-container" id="contact">
                 <div class="contact-container body-grid">
                     <div class="contact-data">
-                        <span class="subtitle contact-initial"><span class="letter">L</span>et's talk</span>
-                        <h2 class="title contact-initial">Contact us</h2>
-                        <p class="contact-description">Would you like to place a Custom Order or have feedback about our products or service? Please contact us.</p>
+                        <span class="subtitle contact-initial"><span class="letter"></span>Hablemos</span>
+                        <h2 class="title contact-initial">Contactanos</h2>
+                        <p class="contact-description">
+                            ¿Le gustaría realizar un pedido personalizado o recibir comentarios sobre nuestros productos o servicios? Por favor contáctenos.</p>
                     </div>
 
                     <div class="contact-button">
-                        <a href="#" class="button">Contact us now</a>
+                        <a href="#" class="button">Contactanos ahora</a>
                     </div>
                 </div>
             </section>
@@ -273,48 +300,43 @@
         <footer class="footer section body-container">
             <div class="footer-container body-grid">
                 <div class="footer-content">
-                    <a href="#" class="footer-logo">SweetStyle</a>
-                    <span class="footer-description">Cakery</span>
+                    <a href="#" class="footer-logo">Comidas y panaderia</a>
+                    <span class="footer-description">negocio casero</span>
                     <div>
-                        <a href="#" class="footer-social"><i class='bx bxl-facebook-circle'></i></a>
-                        <a href="#" class="footer-social"><i class='bx bxl-instagram' ></i></a>
-                        <a href="#" class="footer-social"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.facebook.com/marketplace/item/250690170612422/?ref=search&referral_code=marketplace_search&referral_story_type=post&tracking=browse_serp%3A52aba5e9-055f-4274-8e73-bc240b2ee978" class="footer-social"><i class='bx bxl-facebook-circle'></i></a>
                     </div>
                 </div>
 
                 <div class="footer-content">
-                    <h3 class="footer-title">Services</h3>
+                    <h3 class="footer-title">Servicios</h3>
                     <ul>
-                        <li><a href="^" class="footer-link">Delivery</a></li>
-                        <li><a href="^" class="footer-link">Pricing</a></li>
-                        <li><a href="^" class="footer-link">Custom Order</a></li>
-                        <li><a href="^" class="footer-link">Reserve your spot</a></li>
+                        <li><a href="^" class="footer-link">Entrega</a></li>
+                        <li><a href="^" class="footer-link">Precios</a></li>
+                        <li><a href="^" class="footer-link">Orden personalizada</a></li>
+                        <li><a href="^" class="footer-link">Agenda tu orden o visitanos</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-content">
-                    <h3 class="footer-title">Information</h3>
+                    <h3 class="footer-title">Informacion</h3>
                     <ul>
-                        <li><a href="^" class="footer-link">Event</a></li>
-                        <li><a href="^" class="footer-link">Contact</a></li>
-                        <li><a href="^" class="footer-link">Privacy policy</a></li>
-                        <li><a href="^" class="footer-link">Terms of services</a></li>
+                        <li><a href="https://wa.me/3162837271" class="footer-link" target="_blank">Contacto</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-content">
-                    <h3 class="footer-title">Adress</h3>
+                    <h3 class="footer-title">Direccion</h3>
                     <ul>
-                        <li>City - Country</li>
-                        <li>Lorem ipsum #999</li>
-                        <li>111 - 222 - 333</li>
-                        <li>sweetStyle@mail.com</li>
+                        <li>Cali - Colombia</li>
+                        <li>Carrera 3 norte #71 i1-15</li>
+                        <li>3162837271  - 3217363916</li>
+                        <li>puntonuestrosabor245@gmail.com</li>
                     </ul>
                 </div>
             </div>
 
-            <p class="footer-copy">&#169; 2021 SweetStyle. All right reserved</p>
-            <p class="footer-copy">Disigned by: <a href="https://github.com/Jean-carje" target="_blank">Jean Estevez</a></p>
+         
+            <p class="footer-copy">Disigned by: <a href="https://github.com/sebas1017" target="_blank">Sebastian Henao Erazo</a></p>
         </footer>
 
         <!-- Scroll Reveal -->

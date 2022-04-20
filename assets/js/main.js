@@ -94,6 +94,7 @@ const iconTheme = 'bx-sun';
 const selectedTheme = localStorage.getItem('selected-theme');
 const getCurrentTheme = () => document.body.classList.contains(darkTheme)? 'dark': 'light';
 const selectedIcon = localStorage.getItem('selected-icon');
+
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme)? 'bx-moon': 'bx-sun';
 
 if (selectedTheme) {
